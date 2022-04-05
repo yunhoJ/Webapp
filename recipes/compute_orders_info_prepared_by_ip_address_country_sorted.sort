@@ -39,7 +39,16 @@
   },
   "rank": false,
   "denseRank": false,
-  "orders": [],
+  "orders": [
+    {
+      "column": "ip_address_country",
+      "desc": false
+    },
+    {
+      "column": "campaign",
+      "desc": true
+    }
+  ],
   "rowNumber": false,
   "outputColumnNameOverrides": {},
   "computedColumns": []
