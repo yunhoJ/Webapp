@@ -739,7 +739,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "decision_tree_classification": {
       "max_depth": {
@@ -893,11 +893,11 @@
           "scaling": "LOGARITHMIC"
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "leastsquare_regression": {
       "n_jobs": 2,
-      "enabled": false
+      "enabled": true
     },
     "sgd_regression": {
       "epsilon": {
