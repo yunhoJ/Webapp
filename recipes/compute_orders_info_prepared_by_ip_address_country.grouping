@@ -481,6 +481,17 @@
   "outputColumnNameOverrides": {},
   "computedColumns": [],
   "postFilter": {
+    "uiData": {
+      "mode": "\u0026\u0026",
+      "conditions": [
+        {
+          "input": "ip_address_country",
+          "col": "campaign",
+          "num": 0,
+          "operator": "not empty"
+        }
+      ]
+    },
     "$status": {
       "schema": {
         "columns": [
@@ -521,6 +532,6 @@
       }
     },
     "distinct": false,
-    "enabled": false
+    "enabled": true
   }
 }
