@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649149353210
+    "lastModifiedOn": 1649149417999
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,6 +89,26 @@
       {
         "name": "ip_address_country",
         "type": "string"
+      },
+      {
+        "name": "campaign",
+        "type": "boolean"
+      },
+      {
+        "name": "order_date_first",
+        "type": "string"
+      },
+      {
+        "name": "order_date_last",
+        "type": "string"
+      },
+      {
+        "name": "pages_visited_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "total_sum",
+        "type": "double"
       },
       {
         "name": "count",
