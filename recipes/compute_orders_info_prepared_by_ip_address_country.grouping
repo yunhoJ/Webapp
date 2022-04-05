@@ -194,9 +194,9 @@
       "column": "order_number",
       "count": false,
       "$idx": 8,
-      "sum": false,
+      "sum": true,
       "concat": false,
-      "type": "string",
+      "type": "bigint",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -502,6 +502,10 @@
           },
           {
             "name": "pages_visited_sum",
+            "type": "bigint"
+          },
+          {
+            "name": "order_number_sum",
             "type": "bigint"
           },
           {
