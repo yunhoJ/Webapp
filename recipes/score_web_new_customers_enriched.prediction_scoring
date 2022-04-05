@@ -5,9 +5,17 @@
     "pipelineAllowStart": true
   },
   "backendType": "PY_MEMORY",
-  "filterInputColumns": false,
+  "filterInputColumns": true,
   "useGPU": false,
-  "keptInputColumns": [],
+  "keptInputColumns": [
+    "customer_id",
+    "ip",
+    "ip_geopoint",
+    "ip_country_code",
+    "ip_country",
+    "pages_visited",
+    "campain"
+  ],
   "pythonBatchSize": 100000,
   "gpuAllowGrowth": false,
   "outputProbaPercentiles": false,
@@ -20,7 +28,7 @@
     "shapleyBackgroundSize": 100,
     "nbExplanations": 3
   },
-  "forcedClassifierThreshold": 0.0,
+  "forcedClassifierThreshold": 0,
   "batchSize": 100,
   "outputExplanations": false,
   "overrideModelSpecifiedThreshold": false,
